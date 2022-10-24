@@ -1,0 +1,25 @@
+.main {
+    background: yellow;
+
+    .navbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 40px 15%;
+
+        .logo {
+            font-weight: 700;
+            font-size: 24px;
+        }
+        .nav {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 40%;
+
+            span {
+                font-weight: 700;
+            }
+        }
+    }
+}
