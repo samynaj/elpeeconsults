@@ -1,0 +1,9 @@
+$primary-color: #fbcf03;
+$dark-grey: #2c2c2c;
+$light-grey: #b4b4b4;
+
+:export {
+  primaryColor: $primary-color;
+  darkGrey: $dark-grey;
+  lightGrey: $light-grey;
+}
