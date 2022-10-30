@@ -1,7 +1,7 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import styles from '../styles/Home.module.scss'
-import Footer from '../components/Footer'
+import Layout from '../components/layout'
+import Hero from '../components/hero'
 
 export default function Home() {
   return (
@@ -13,21 +13,9 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <div className={styles.hero}>
-          <div className={styles.navbar}>
-            <div className={styles.logo}>
-              Emwesto
-            </div>
-            <div className={styles.nav}>
-              <span>Home</span>
-              <span>About</span>
-              <span>Services</span>
-              <span>Projects</span>
-              <span>Contacts</span>
-            </div>
-          </div>
-        </div>
-        <Footer />
+        <Layout>
+          <Hero />
+        </Layout>
       </main>
     </div>
   )
