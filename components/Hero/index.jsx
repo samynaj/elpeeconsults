@@ -12,7 +12,7 @@ const Index = () => {
                     options={{
                         strings: ['Construction',
                         'Architecture',
-                        'Supply of General Hardwares and Softwares',
+                        'Supply of Hardwares and Softwares',
                         'General Merchant'],
                         autoStart: true,
                         loop: true,

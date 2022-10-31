@@ -2,6 +2,7 @@ import Head from 'next/head'
 import styles from '../styles/Home.module.scss'
 import Layout from '../components/layout'
 import Hero from '../components/hero'
+import About from '../components/About'
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <main className={styles.main}>
         <Layout>
           <Hero />
+          <About />
         </Layout>
       </main>
     </div>

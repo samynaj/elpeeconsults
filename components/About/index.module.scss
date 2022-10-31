@@ -1,0 +1,59 @@
+.root {
+    padding: 100px 15%;
+    background-image: url('../../public/assets/construction01_about_us_background.png');
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .left,
+    .right {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: start;
+    }
+
+    .left {
+        h2 {
+            font-size: 48px;
+        }
+
+        span {
+            width: 100px;
+            height: 2px;
+            align-self: start;
+            border: 1px solid orange;
+        }
+
+        p {
+            font-size: 24px;
+            width: 60%;
+            font-weight: 400;
+        }
+    }
+
+    .right {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+
+        p {
+            font-size: 17.5px;
+        }
+
+        button {
+            padding: 10px 20px;
+            background-color: orange;
+            border-radius: 5px;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            -ms-border-radius: 5px;
+            -o-border-radius: 5px;
+            text-transform: capitalize;
+            cursor: pointer;
+            font-weight: 600;
+            border: 1px solid orange;
+        }
+    }
+}
