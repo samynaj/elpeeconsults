@@ -1,5 +1,53 @@
 .main {
     background: white;
 
-    
+    .core {
+        display: flex;
+        height: 400px;
+        color: white;
+
+        .left {
+            background-image: url('../public/assets/2-2.jpg');
+            background-size: contain;
+            padding: 50px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+
+            span {
+                width: 100px;
+                border: 1px solid orange;
+            }
+        }
+
+        .center {
+            background-image: url('../public/assets/3-2.jpg');
+            background-size: contain;
+            padding: 50px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+
+            span {
+                width: 100px;
+                border: 1px solid orange;
+            }
+        }
+
+        .right {
+            background-image: url('../public/assets/4-1.jpg');
+            background-size: contain;
+            padding: 50px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+
+            span {
+                width: 100px;
+                border: 1px solid orange;
+            }
+        }
+
+    }
+
 }

@@ -17,6 +17,23 @@ export default function Home() {
         <Layout>
           <Hero />
           <About />
+          <div className={styles.core}>
+            <div className={styles.left}>
+              <h3>RENOVATION BUILDINGS</h3>
+              <span></span>
+              <p>Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus.</p>
+            </div>
+            <div className={styles.center}>
+              <h3>DESIGN AND BUILDING</h3>
+              <span></span>
+              <p>Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus.</p>
+            </div>
+            <div className={styles.right}>
+              <h3>PAINTING AND ROOFING</h3>
+              <span></span>
+              <p>Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus.</p>
+            </div>
+          </div>
         </Layout>
       </main>
     </div>
