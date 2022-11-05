@@ -1,6 +1,11 @@
 .main {
     background: white;
 
+    .body {
+        display: flex;
+        flex-direction: column;
+    }
+
     .core {
         display: flex;
         height: 400px;

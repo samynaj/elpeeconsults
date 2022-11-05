@@ -1,9 +1,12 @@
 .root {
     padding: 100px 15%;
     background-image: url('../../public/assets/construction01_about_us_background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 700px;
 
     .left,
     .right {
@@ -54,6 +57,10 @@
             cursor: pointer;
             font-weight: 600;
             border: 1px solid orange;
+
+            &:hover {
+                scale: 1.1;
+            }
         }
     }
 }
