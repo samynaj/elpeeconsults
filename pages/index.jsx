@@ -5,6 +5,7 @@ import Layout from '../components/layout'
 import Hero from '../components/hero'
 import About from '../components/About'
 import Contact from '../components/Contact'
+import Projects from '../components/Projects'
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -47,6 +48,7 @@ export default function Home() {
                 <p>Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus.</p>
               </div>
             </div>
+            <Projects />
             <Contact />
           </div>
         </Layout>
