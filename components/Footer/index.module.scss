@@ -6,12 +6,21 @@
     padding: 20px 15%;
     background-color: $dark-grey;
     color: $light-grey;
+    width: 100%;
+
+    @media  (max-width: 800px) {
+        flex-direction: column;
+        gap: 20px;
+    }
 
     .center {
         display: flex;
         align-items: center;
         justify-content: space-between;
         gap: 20px;
+        @media  (max-width: 520px) {
+            flex-direction: column;
+        }
     }
 
     .right {
