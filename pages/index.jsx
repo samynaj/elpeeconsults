@@ -29,20 +29,29 @@ export default function Home() {
             <Hero />
             <About />
             <div className={styles.core}>
-              <div data-aos="zoom-out-left" data-aos-easing="ease-out-cubic"
-                data-aos-duration="2000" className={styles.left}>
+              <div 
+                // data-aos="zoom-out-left" 
+                // data-aos-easing="ease-out-cubic"
+                // data-aos-duration="2000" 
+                className={styles.left}>
                 <h3>RENOVATION BUILDINGS</h3>
                 <span></span>
                 <p>Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus.</p>
               </div>
-              <div data-aos="zoom-out-up" data-aos-easing="ease-out-cubic"
-                data-aos-duration="2000" className={styles.center}>
+              <div 
+                // data-aos="zoom-out-up" 
+                // data-aos-easing="ease-out-cubic"
+                // data-aos-duration="2000" 
+                className={styles.center}>
                 <h3>DESIGN AND BUILDING</h3>
                 <span></span>
                 <p>Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus.</p>
               </div>
-              <div data-aos="zoom-out-right" data-aos-easing="ease-out-cubic"
-                data-aos-duration="2000" className={styles.right}>
+              <div 
+                // data-aos="zoom-out-right" 
+                // data-aos-easing="ease-out-cubic"
+                // data-aos-duration="2000" 
+                className={styles.right}>
                 <h3>PAINTING AND ROOFING</h3>
                 <span></span>
                 <p>Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus.</p>

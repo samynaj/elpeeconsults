@@ -13,8 +13,12 @@ const Index = () => {
     }, []);
     return (
         <div className={styles.root}>
-            <div data-aos="zoom-in-down" data-aos-easing="ease-out-cubic"
-                data-aos-duration="3000" className={styles.type} >
+            <div 
+                data-aos="zoom-in-down" 
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="3000" 
+                className={styles.type} 
+            >
                 <Image src="/assets/sep-line-white.png" alt="" width='600px' height={8} />
                 <Typewriter
                     options={{
@@ -30,8 +34,11 @@ const Index = () => {
                 />
                 <Image src="/assets/sep-line-white.png" alt="" width='600px' height={8} />
             </div>
-            <p data-aos='fade-up' data-aos-easing="ease-out-cubic"
-                data-aos-duration="3000">Integer rutrum ligula eu dignissim laoreet. Pellentesque venenatis nibh sed tellus faucibus bibendum.</p>
+            <p 
+                data-aos='fade-up' 
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="3000"
+                >Integer rutrum ligula eu dignissim laoreet. Pellentesque venenatis nibh sed tellus faucibus bibendum.</p>
             <button data-aos='flip-right' data-aos-easing="ease-out-cubic"
                 data-aos-duration="3000">View all services</button>
         </div>
