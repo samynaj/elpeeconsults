@@ -1,0 +1,96 @@
+.root {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    padding: 100px;
+
+    h2 {
+        font-size: 48px;
+        text-align: center;
+    }
+
+    h3 {
+        font-size: 36px;
+        text-align: center;
+    }
+
+    .container {
+        display: flex;
+        gap: 50px;
+        justify-content: center;
+        align-items: center;
+        padding: 50px;
+
+        .left,
+        .center,
+        .right {
+            // border: 1px solid rgba(161, 159, 159, 0.4);
+            width: 350px;
+            height: 350px;
+            box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 30px;
+            padding: 20px;
+
+            .desc {
+                text-align: center;
+                display: flex;
+                flex-direction: column;
+                gap: 0px;
+                height: 40%;
+
+                h5 {
+                    font-size: 21px;
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
+
+    .connect {
+        align-self: center;
+        margin-top: 100px;
+        padding: 50px;
+        height: 400px;
+        background: #fff;
+        width: 800px;
+        box-shadow: 20px 20px 60px #bebebe,
+            -20px -20px 60px #ffffff;
+        border-radius: 24px;
+        -webkit-border-radius: 24px;
+        -moz-border-radius: 24px;
+        -ms-border-radius: 24px;
+        -o-border-radius: 24px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 50px;
+
+        .top {
+            hr {
+                width: 100px;
+                height: 3px;
+                align-self: center;
+                border: 1px solid orange;
+                background-color: orange;
+            }
+        }
+
+        .socials {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+
+            .icon {
+                scale: 1.1;
+                cursor: pointer;
+            }
+        }
+    }
+}
