@@ -13,14 +13,16 @@ const Index = () => {
     <div className={styles.root}>
       <div data-aos="fade-down-right" data-aos-easing="ease-out-cubic"
         data-aos-duration="2000" className={styles.left}>
-        <h2>About Us</h2>
+        <h2 data-aos='flip-left' data-aos-easing="ease-out-cubic"
+          data-aos-duration="3000">About Us</h2>
         <span></span>
         <p>WE ARE THE LEADERS IN THE CONSTRUCTION INDUSTRY!</p>
       </div>
       <div data-aos="fade-down-left" data-aos-easing="ease-out-cubic"
         data-aos-duration="2000" className={styles.right}>
         <p>Lorem Ipsum proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat.</p>
-        <button>Read more</button>
+        <button data-aos='flip-right' data-aos-easing="ease-out-cubic"
+          data-aos-duration="3000">Read more</button>
       </div>
     </div>
   )

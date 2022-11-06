@@ -14,7 +14,8 @@ const Index = () => {
     }, []);
     return (
         <div className={styles.root}>
-            <h2>Contact Us</h2>
+            <h2 data-aos='flip-down' data-aos-easing="ease-out-cubic"
+                data-aos-duration="3000">Contact Us</h2>
             <div className={styles.container}>
                 <div data-aos='flip-left' data-aos-easing="ease-out-cubic"
                     data-aos-duration="2000" className={styles.left}>

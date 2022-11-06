@@ -24,15 +24,17 @@
 
         span {
             width: 100px;
-            height: 2px;
+            height: 3px;
             align-self: flex-start;
             border: 1px solid orange;
+            background-color: orange;
         }
 
         p {
             font-size: 24px;
             width: 60%;
             font-weight: 400;
+            opacity: 0.5;
         }
     }
 
@@ -59,7 +61,8 @@
             border: 1px solid orange;
 
             &:hover {
-                scale: 1.1;
+                scale: 1.2;
+                color: #fff;
             }
         }
     }
