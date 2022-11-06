@@ -1,5 +1,8 @@
 .root {
     padding: 100px 15%;
+    @media  (max-width: 800px) {
+        padding: 100px 20px;
+    }
 
     .top {
         text-align: left;
@@ -12,7 +15,6 @@
             text-align: left;
             width: 100px;
             height: 3px;
-            // align-self: flex-start;
             border: 1px solid orange;
             background-color: orange;
         }
@@ -35,6 +37,10 @@
             grid-template-columns: 2fr 1fr;
             gap: 10px;
 
+            @media  (max-width: 800px) {
+                grid-template-columns: 1fr;
+            }
+
             div {
                 &:hover {
                     scale: 1.1;
@@ -47,6 +53,10 @@
             grid-template-columns: 1fr 1fr 1fr;
             gap: 10px;
 
+            @media  (max-width: 800px) {
+                grid-template-columns: 1fr;
+            }
+
             div {
                 &:hover {
                     scale: 1.1;
@@ -58,6 +68,10 @@
             display: grid;
             grid-template-columns: 1fr 2fr;
             gap: 10px;
+
+            @media  (max-width: 800px) {
+                grid-template-columns: 1fr;
+            }
 
             div {
                 &:hover {
