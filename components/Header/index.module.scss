@@ -34,6 +34,9 @@
             @media screen and (max-width: 800px) {
                 width: 60%;
             }
+            @media screen and (max-width: 600px) {
+                display: none;
+            }
 
             span {
                 font-weight: 700;

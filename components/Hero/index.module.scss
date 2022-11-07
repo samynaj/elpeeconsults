@@ -19,6 +19,12 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
+
+        img {
+            @media screen and (max-width: 800px) {
+                width: 80% !important;
+            }
+        }
     }
 
     p {
@@ -31,6 +37,7 @@
 
     button {
         background-color: #000;
+        border: 1px solid #000;
         color: #fff;
         padding: 20px 30px;
         font-size: 21px;
