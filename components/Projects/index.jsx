@@ -4,7 +4,7 @@ import styles from './index.module.scss'
 
 const Index = () => {
     return (
-        <div className={styles.root}>
+        <div id='projects' className={styles.root}>
             <div className={styles.top}>
                 <h2>Our Projects</h2>
                 <div></div>

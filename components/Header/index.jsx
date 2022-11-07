@@ -3,6 +3,7 @@ import styles from './index.module.scss'
 import Image from 'next/image'
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Link from 'next/link';
 
 const Index = () => {
     useEffect(() => {
@@ -22,17 +23,27 @@ const Index = () => {
                     <p>Emwesto</p>
 
                 </div>
-                <div 
-                    data-aos="zoom-out-left" 
+                <div
+                    data-aos="zoom-out-left"
                     data-aos-easing="ease-out-cubic"
-                    data-aos-duration="3000" 
+                    data-aos-duration="3000"
                     className={styles.nav}
                 >
-                    <span>Home</span>
-                    <span>About</span>
-                    <span>Services</span>
-                    <span>Projects</span>
-                    <span>Contacts</span>
+                    <Link href='/'>
+                        <span>Home</span>
+                    </Link>
+                    <Link href='/about'>
+                        <span>About</span>
+                    </Link>
+                    <Link href='/#services'>
+                        <span>Services</span>
+                    </Link>
+                    <Link href='/#projects'>
+                        <span>Projects</span>
+                    </Link>
+                    <Link href='/#contact'>
+                        <span>Contacts</span>
+                    </Link>
                 </div>
             </div>
         </div>

@@ -13,7 +13,7 @@ const Index = () => {
         AOS.refresh();
     }, []);
     return (
-        <div className={styles.root}>
+        <div id='contact' className={styles.root}>
             <h2 data-aos='flip-down' data-aos-easing="ease-out-cubic"
                 data-aos-duration="3000">Contact Us</h2>
             <div className={styles.container}>

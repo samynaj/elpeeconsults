@@ -28,7 +28,7 @@ export default function Home() {
           <div className={styles.body}>
             <Hero />
             <About />
-            <div className={styles.core}>
+            <div id='services' className={styles.core}>
               <div 
                 data-aos="zoom-in-down" 
                 data-aos-easing="ease-out-cubic"
