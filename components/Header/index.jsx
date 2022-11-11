@@ -13,16 +13,18 @@ const Index = () => {
     return (
         <div className={styles.root}>
             <div className={styles.navbar}>
-                <div
-                    data-aos="zoom-out-down"
-                    data-aos-easing="ease-out-cubic"
-                    data-aos-duration="3000"
-                    className={styles.logo}
-                >
-                    <Image src='/assets/logo-icon.png' alt='' width={60} height={60} />
-                    <p>Emwesto</p>
+                <Link href='/' >
+                    <div
+                        data-aos="zoom-out-down"
+                        data-aos-easing="ease-out-cubic"
+                        data-aos-duration="3000"
+                        className={styles.logo}
+                    >
+                        <Image src='/assets/logo-icon.png' alt='' width={60} height={60} />
+                        <p>Emwesto</p>
 
-                </div>
+                    </div>
+                </Link>
                 <div
                     data-aos="zoom-out-left"
                     data-aos-easing="ease-out-cubic"
