@@ -1,4 +1,4 @@
-import { useEffect } from 'react'
+import { useEffect, useState } from 'react'
 import styles from './index.module.scss'
 import Image from 'next/image'
 import AOS from "aos";
@@ -6,10 +6,15 @@ import "aos/dist/aos.css";
 import Link from 'next/link';
 
 const Index = () => {
+    const [open, setOpen] = useState(false);
+
     useEffect(() => {
         AOS.init();
         AOS.refresh();
-    }, []);
+        setOpen(open)
+    }, [open]);
+
+
     return (
         <div className={styles.root}>
             <div className={styles.navbar}>
@@ -29,7 +34,7 @@ const Index = () => {
                     data-aos="zoom-out-left"
                     data-aos-easing="ease-out-cubic"
                     data-aos-duration="3000"
-                    className={styles.nav}
+                    className={`${styles.nav} ${open? styles.show : styles.hide}`}
                 >
                     <Link href='/'>
                         <span>Home</span>
@@ -46,6 +51,16 @@ const Index = () => {
                     <Link href='/#contact'>
                         <span>Contacts</span>
                     </Link>
+                </div>
+                <div className={styles.hamburgerBtn}>
+                    <button
+                        className={`hamburger hamburger--emphatic ${open? 'is-active' : ''}`} aria-label='navigation button'
+                        onClick={() => setOpen(!open)}
+                        type="button">
+                        <span className="hamburger-box">
+                            <span className="hamburger-inner"></span>
+                        </span>
+                    </button>
                 </div>
             </div>
         </div>
