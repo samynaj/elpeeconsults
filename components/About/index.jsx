@@ -32,7 +32,7 @@ const Index = () => {
           data-aos="flip-right"
           data-aos-easing="ease-out-cubic"
           data-aos-duration="2000"
-        >Lorem Ipsum proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat.</p>
+        >Emwesto specializes in providing complete solutions including consulting, design, fabrication and erection of high-quality pre-engineered steel building and steel structure products. We provide customers with full steel structures such as factories, warehouses, high-rise building, heavy industry, shopping mall, exhibition centers, infrastructure (railway stations, airports…). </p>
         <button
           data-aos='flip-right'
           data-aos-easing="ease-out-cubic"

@@ -44,8 +44,8 @@ const Index = () => {
                                 </AccordionSummary>
                                 <AccordionDetails>
                                     <Typography>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-                                        malesuada lacus ex, sit amet blandit leo lobortis eget.
+                                        Emwesto becomes the leading steel structure and pre-engineered buildings corporation in terms of revenue,
+                                        system quality, products, and services in Nigeria and Africa.
                                     </Typography>
                                 </AccordionDetails>
                             </Accordion>
@@ -60,8 +60,8 @@ const Index = () => {
                                 </AccordionSummary>
                                 <AccordionDetails>
                                     <Typography>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-                                        malesuada lacus ex, sit amet blandit leo lobortis eget.
+                                        Emwesto provides products and services that meet our customers’
+                                        expectations to bring prosperity and sustainable development for Customers, Employees, Partners, Shareholders, Suppliers.
                                     </Typography>
                                 </AccordionDetails>
                             </Accordion>
@@ -76,8 +76,8 @@ const Index = () => {
                                 </AccordionSummary>
                                 <AccordionDetails>
                                     <Typography>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-                                        malesuada lacus ex, sit amet blandit leo lobortis eget.
+                                        Company members are committed to living and working according to the company’s values, to build a homogeneous and strong company’s culture,
+                                        develop the self-foundation of each individual as an essential focus:
                                     </Typography>
                                 </AccordionDetails>
                             </Accordion>
@@ -85,7 +85,7 @@ const Index = () => {
                     </div>
                 </div>
                 <div className={styles.bottom}>
-                    <p>Lorem Ipsum proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nvvvibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus elit set condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. Proin condimentum fermentum nunc. Etiam pharetra, erat sed fermentum feugiat, velit mauris egestas quam, ut aliquam massa nisl quis neque. Suspendisse in orci enim. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. Sed non mauris vitae erat consequat auctor eu in elit.</p>
+                    <p>Emwesto specializes in providing complete solutions including consulting, design, fabrication and erection of high-quality pre-engineered steel building and steel structure products. We provide customers with full steel structures such as factories, warehouses, high-rise building, heavy industry, shopping mall, exhibition centers, infrastructure (railway stations, airports…). </p>
                 </div>
             </div>
         </Layout>
