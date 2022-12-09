@@ -76,8 +76,7 @@ const Index = () => {
                                 </AccordionSummary>
                                 <AccordionDetails>
                                     <Typography>
-                                        Company members are committed to living and working according to the company’s values, to build a homogeneous and strong company’s culture,
-                                        develop the self-foundation of each individual as an essential focus:
+                                        Emwesto Founded in 1875, Emwesto is a reputable construction and general merchandise company in Nigeria. our main focus is on construction, but they also deal in a variety of other merchandise, including clothing, tools, and home goods. we have a rich history of providing quality goods and services to our customers, and we continue to be a leader in the industry today. our dedication to our customers and to our products has made us one of the most trusted companies in the UK and Nigeria.
                                     </Typography>
                                 </AccordionDetails>
                             </Accordion>
@@ -85,7 +84,7 @@ const Index = () => {
                     </div>
                 </div>
                 <div className={styles.bottom}>
-                    <p>Emwesto specializes in providing complete solutions including consulting, design, fabrication and erection of high-quality pre-engineered steel building and steel structure products. We provide customers with full steel structures such as factories, warehouses, high-rise building, heavy industry, shopping mall, exhibition centers, infrastructure (railway stations, airports…). </p>
+                    <p>Building a strong foundation with quality construction and general merchandise Since our establishment in 1954, our company has been the leading builder and supplier of construction and general merchandise in our region. We offer premier quality construction and general merchandise to both large and small businesses, as well as to individual consumers. We take pride in our products and our services, and we are dedicated to meeting the needs of our customers. With our extensive selection of construction and general merchandise, we are sure to have exactly what you need. Shop with us today, and experience the quality and service that have made us the top builder and supplier in our region.</p>
                 </div>
             </div>
         </Layout>

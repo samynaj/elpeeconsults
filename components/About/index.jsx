@@ -2,6 +2,7 @@ import { useEffect } from 'react'
 import styles from './index.module.scss'
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { useRouter } from 'next/router';
 
 
 const Index = () => {
@@ -9,6 +10,7 @@ const Index = () => {
     AOS.init();
     AOS.refresh();
   }, []);
+  const router = useRouter()
   return (
     <div className={styles.root}>
       <div
@@ -32,11 +34,12 @@ const Index = () => {
           data-aos="flip-right"
           data-aos-easing="ease-out-cubic"
           data-aos-duration="2000"
-        >Emwesto specializes in providing complete solutions including consulting, design, fabrication and erection of high-quality pre-engineered steel building and steel structure products. We provide customers with full steel structures such as factories, warehouses, high-rise building, heavy industry, shopping mall, exhibition centers, infrastructure (railway stations, airports…). </p>
+        >We take pride in our products and our services, and we are dedicated to meeting the needs of our customers. With our extensive selection of construction and general merchandise, we are sure to have exactly what you need. </p>
         <button
           data-aos='flip-right'
           data-aos-easing="ease-out-cubic"
           data-aos-duration="3000"
+          onClick={() => router.push('/about')}
         >Read more</button>
       </div>
     </div>

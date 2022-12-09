@@ -8,7 +8,7 @@ const Index = () => {
             <div className={styles.top}>
                 <h2>Our Projects</h2>
                 <div></div>
-                <p>Get an overview of what we do and some of our current projects</p>
+                <p>Get an overview of some of our current projects</p>
             </div>
             <div className={styles.projects}>
                 <div className={styles.topP}>

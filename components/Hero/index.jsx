@@ -5,12 +5,15 @@ import styles from './index.module.scss'
 import Typewriter from 'typewriter-effect';
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { useRouter } from 'next/router';
 
 const Index = () => {
     useEffect(() => {
         AOS.init();
         AOS.refresh();
     }, []);
+
+    const router = useRouter()
     return (
         <div className={styles.root}>
             <div
@@ -38,9 +41,11 @@ const Index = () => {
                 data-aos='fade-up'
                 data-aos-easing="ease-out-cubic"
                 data-aos-duration="3000"
-            >Commitment to meeting our customers satisfaction: quality, timely schedule, safety; accompanied with our partners to success in order to obtain trust adn a long term partnership </p>
+            >Our commitment is to meeting our customers satisfaction: We build it, You buy it. </p>
             <button data-aos='flip-right' data-aos-easing="ease-out-cubic"
-                data-aos-duration="3000">View all services</button>
+                data-aos-duration="3000"
+                onClick={() => router.push('/#services')}
+                >View all services</button>
         </div>
     )
 }
