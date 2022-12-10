@@ -22,9 +22,8 @@ const Index = () => {
                     <SlLocationPin size={40} color="orange" />
                     <div className={styles.desc}>
                         <h5>WE ARE HERE</h5>
-                        <p>908 New Hampshire Avenue
-                            Northwest #100, Washington, DC
-                            20037, United States</p>
+                        <p>Suit CE6 Apo Sparklight mall Durumi Abuja, Nigeria.</p>
+                        <p>Abeken str 5 49082 Osnabrück, Germany.</p>
                     </div>
                 </div>
                 <div data-aos='flip-up' data-aos-easing="ease-out-cubic"
