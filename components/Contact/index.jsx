@@ -32,9 +32,9 @@ const Index = () => {
                     <div className={styles.desc}>
                         <h5>CALL US</h5>
                         <div>
-                            <p>Phone: +23486000000</p>
-                            <p>Mobile: +23486000000</p>
-                            <p>Fax: +23486000000</p>
+                            <p>Phone: +2348133997250</p>
+                            <p>Mobile: +2348133997250</p>
+                            <p>Fax: +2348133997250</p>
                         </div>
                     </div>
                 </div>
