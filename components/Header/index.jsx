@@ -45,7 +45,7 @@ const Index = () => {
                     <Link href='/#services'>
                         <span>Services</span>
                     </Link>
-                    <Link href='/#projects'>
+                    <Link href='/projects'>
                         <span>Projects</span>
                     </Link>
                     <Link href='/#contact'>
