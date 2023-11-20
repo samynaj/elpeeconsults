@@ -1,12 +1,12 @@
-import { useEffect } from 'react'
-import Head from 'next/head'
-import styles from '../styles/Home.module.scss'
-import Layout from '../components/layout'
-import Hero from '../components/Hero'
-import About from '../components/About'
-import Contact from '../components/Contact'
-import Projects from '../components/Projects'
-import Services from '../components/Services'
+import { useEffect } from "react";
+import Head from "next/head";
+import styles from "../styles/Home.module.scss";
+import Layout from "../components/layout";
+import Hero from "../components/Hero";
+import About from "../components/About";
+import Contact from "../components/Contact";
+import Clients from "../components/Clients";
+import Services from "../components/Services";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -19,7 +19,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Emwesto</title>
+        <title>Elpeeconsults</title>
         <meta name="description" content="Global Service Limited" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -30,11 +30,11 @@ export default function Home() {
             <Hero />
             <About />
             <Services />
-            <Projects />
+            <Clients />
             <Contact />
           </div>
         </Layout>
       </main>
-    </div >
-  )
+    </div>
+  );
 }

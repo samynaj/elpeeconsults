@@ -1,81 +1,82 @@
 .root {
-    padding: 100px 15%;
-    background-image: url('../../public/assets/construction01_about_us_background.png');
-    background-repeat: no-repeat;
-    background-size: cover;
+  padding: 100px 15%;
+  background-image: url("../../public/assets/about-us.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 700px;
+  width: 100%;
+
+  @media screen and (max-width: 800px) {
+    flex-direction: column;
+    // text-align: center;
+    padding: 100px 20px;
+    height: auto;
+  }
+
+  .left,
+  .right {
+    width: 50%;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 700px;
-    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
 
     @media screen and (max-width: 800px) {
-        flex-direction: column;
-        // text-align: center;
-        padding: 100px 20px;
-        height: auto;
+      width: 100%;
+    }
+  }
+
+  .left {
+    h2 {
+      font-size: 48px;
     }
 
-    .left,
-    .right {
-        width: 50%;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content: flex-start;
-
-        @media screen and (max-width: 800px) {
-            width: 100%;
-        }
+    span {
+      width: 100px;
+      height: 3px;
+      align-self: flex-start;
+      border: 1px solid red;
+      background-color: red;
     }
 
-    .left {
-        h2 {
-            font-size: 48px;
-        }
+    p {
+      font-size: 24px;
+      width: 60%;
+      font-weight: 400;
+      opacity: 0.5;
+    }
+  }
 
-        span {
-            width: 100px;
-            height: 3px;
-            align-self: flex-start;
-            border: 1px solid orange;
-            background-color: orange;
-        }
+  .right {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
 
-        p {
-            font-size: 24px;
-            width: 60%;
-            font-weight: 400;
-            opacity: 0.5;
-        }
+    p {
+      font-size: 17.5px;
     }
 
-    .right {
-        display: flex;
-        flex-direction: column;
-        gap: 30px;
+    button {
+      padding: 10px 20px;
+      background-color: #000;
+      border-radius: 5px;
+      -webkit-border-radius: 5px;
+      -moz-border-radius: 5px;
+      -ms-border-radius: 5px;
+      -o-border-radius: 5px;
+      text-transform: capitalize;
+      cursor: pointer;
+      font-weight: 600;
+      border: 1px solid #000;
+      color: #fff;
 
-        p {
-            font-size: 17.5px;
-        }
-
-        button {
-            padding: 10px 20px;
-            background-color: orange;
-            border-radius: 5px;
-            -webkit-border-radius: 5px;
-            -moz-border-radius: 5px;
-            -ms-border-radius: 5px;
-            -o-border-radius: 5px;
-            text-transform: capitalize;
-            cursor: pointer;
-            font-weight: 600;
-            border: 1px solid orange;
-
-            &:hover {
-                scale: 1.2;
-                color: #fff;
-            }
-        }
+      &:hover {
+        scale: 1.2;
+        color: #fff;
+      }
     }
+  }
 }
