@@ -32,7 +32,7 @@ const Index = () => {
                 data-aos-easing="ease-out-cubic"
                 data-aos-duration="3000"
               >
-                About Elpee Consults
+                About Us
               </h2>
               <div></div>
               <p>
