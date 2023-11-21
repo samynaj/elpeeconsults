@@ -15,7 +15,10 @@ const Index = () => {
       <div className={styles.root}>
         <div className={styles.top}>
           <div className={styles.left}>
-            <Image src="/assets/about.jpeg" alt="" width={700} height={700} />
+            <div className={styles.opaq}>
+              <h4>About Us</h4>
+            </div>
+            <img src="/assets/about.jpeg" alt="" />
           </div>
           <div className={styles.right}>
             <div
@@ -29,7 +32,7 @@ const Index = () => {
                 data-aos-easing="ease-out-cubic"
                 data-aos-duration="3000"
               >
-                About Elpeeconsults Ltd.
+                About Elpee Consults
               </h2>
               <div></div>
               <p>

@@ -22,6 +22,9 @@ const Index = () => {
       >
         Contact Us
       </h2>
+      <div className={styles.red}>
+        <div></div>
+      </div>
       <div className={styles.container}>
         <div
           data-aos="flip-left"

@@ -22,6 +22,9 @@ const Index = () => {
       >
         Our Clients
       </h2>
+      <div className={styles.red}>
+        <div></div>
+      </div>
       <div className={styles.container}>
         <div
           data-aos="zoom-out-right"
