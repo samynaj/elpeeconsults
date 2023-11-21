@@ -24,7 +24,7 @@ const Index = () => {
             data-aos-duration="3000"
             className={styles.logo}
           >
-            <Image src="/assets/unnamed.png" alt="" width={200} height={60} />
+            <Image src="/assets/unnamed.png" alt="" width={180} height={80} />
             {/* <p>Elpeeconsults</p> */}
           </div>
         </Link>
