@@ -45,6 +45,22 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+    position: relative;
+
+    .opaq {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: #000;
+      opacity: 0.6;
+    }
+    h3,
+    p,
+    span {
+      z-index: 20;
+    }
 
     span {
       width: 100px;
@@ -62,6 +78,22 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+    position: relative;
+
+    .opaq {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: #000;
+      opacity: 0.6;
+    }
+    h3,
+    p,
+    span {
+      z-index: 20;
+    }
 
     span {
       width: 100px;
@@ -79,6 +111,22 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+    position: relative;
+
+    .opaq {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: #000;
+      opacity: 0.6;
+    }
+    h3,
+    p,
+    span {
+      z-index: 20;
+    }
 
     span {
       width: 100px;
@@ -108,6 +156,22 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+    position: relative;
+
+    .opaq {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: #000;
+      opacity: 0.6;
+    }
+    h3,
+    p,
+    span {
+      z-index: 20;
+    }
 
     span {
       width: 100px;
@@ -120,13 +184,28 @@
   .center {
     background-image: url("../../public/assets/hcd.png");
     background-color: rgb(84, 84, 85);
-    mix-blend-mode: darken;
     background-size: cover;
     background-repeat: no-repeat;
     padding: 50px;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+    position: relative;
+
+    .opaq {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: #000;
+      opacity: 0.6;
+    }
+    h3,
+    p,
+    span {
+      z-index: 20;
+    }
 
     span {
       width: 100px;
@@ -144,6 +223,22 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+    position: relative;
+
+    .opaq {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: #000;
+      opacity: 0.6;
+    }
+    h3,
+    p,
+    span {
+      z-index: 20;
+    }
 
     span {
       width: 100px;

@@ -9,6 +9,7 @@ import Clients from "../components/Clients";
 import Services from "../components/Services";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import TeamCarousel from "../components/Team";
 
 export default function Home() {
   useEffect(() => {
@@ -30,6 +31,7 @@ export default function Home() {
             <Hero />
             <About />
             <Services />
+            <TeamCarousel />
             <Clients />
             <Contact />
           </div>

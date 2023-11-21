@@ -32,7 +32,10 @@ const Index = () => {
                 About Elpeeconsults Ltd.
               </h2>
               <div></div>
-              <p>WE ARE THE LEADERS IN THE CONSTRUCTION INDUSTRY!</p>
+              <p>
+                We elevate your success by surpassing goals and setting new
+                standards in the dynamic business landscape.
+              </p>
             </div>
             <div>
               <Accordion>
@@ -42,14 +45,14 @@ const Index = () => {
                   id="panel1a-header"
                   sx={{ padding: "20px" }}
                 >
-                  <Typography>COMPANY FEATURES</Typography>
+                  <Typography>OUR VISION</Typography>
                 </AccordionSummary>
                 <AccordionDetails>
                   <Typography>
-                    Elpeeconsults becomes the leading steel structure and
-                    pre-engineered buildings corporation in terms of revenue,
-                    system quality, products, and services in Nigeria and
-                    Africa.
+                    “To provide world-class cutting edge integrated solutions
+                    through the use of creative and innovative ideas, quality
+                    processes and cost efficient methods to provide the desired
+                    results to our clients.”
                   </Typography>
                 </AccordionDetails>
               </Accordion>
@@ -60,14 +63,15 @@ const Index = () => {
                   id="panel2a-header"
                   sx={{ padding: "20px" }}
                 >
-                  <Typography>COMPANY MISSION</Typography>
+                  <Typography>OUR MISSION</Typography>
                 </AccordionSummary>
                 <AccordionDetails>
                   <Typography>
-                    Elpeeconsults provides products and services that meet our
-                    customers’ expectations to bring prosperity and sustainable
-                    development for Customers, Employees, Partners,
-                    Shareholders, Suppliers.
+                    “To assist our clients in achieving their organisational
+                    goal through the provision of full fledged business
+                    transformation and human capital development ranging from
+                    training, simulations, field activities etc. which portrays
+                    us correctly as worthy partners.”
                   </Typography>
                 </AccordionDetails>
               </Accordion>
@@ -78,20 +82,26 @@ const Index = () => {
                   id="panel2a-header"
                   sx={{ padding: "20px" }}
                 >
-                  <Typography>COMPANY HISTORY</Typography>
+                  <Typography>OUR CORE VALUES</Typography>
                 </AccordionSummary>
                 <AccordionDetails>
-                  <Typography>
-                    Elpeeconsults Founded in 1875, Elpeeconsults is a reputable
-                    construction and general merchandise company in Nigeria. our
-                    main focus is on construction, but they also deal in a
-                    variety of other merchandise, including clothing, tools, and
-                    home goods. we have a rich history of providing quality
-                    goods and services to our customers, and we continue to be a
-                    leader in the industry today. our dedication to our
-                    customers and to our products has made us one of the most
-                    trusted companies in the UK and Nigeria.
-                  </Typography>
+                  <ul>
+                    <li>
+                      <Typography>Excellence</Typography>
+                    </li>
+                    <li>
+                      <Typography>Leadership</Typography>
+                    </li>
+                    <li>
+                      <Typography>Passion</Typography>
+                    </li>
+                    <li>
+                      <Typography>Enthusiasm</Typography>
+                    </li>
+                    <li>
+                      <Typography>Empathy</Typography>
+                    </li>
+                  </ul>
                 </AccordionDetails>
               </Accordion>
             </div>
@@ -99,17 +109,29 @@ const Index = () => {
         </div>
         <div className={styles.bottom}>
           <p>
-            Building a strong foundation with quality construction and general
-            merchandise Since our establishment in 1954, our company has been
-            the leading builder and supplier of construction and general
-            merchandise in our region. We offer premier quality construction and
-            general merchandise to both large and small businesses, as well as
-            to individual consumers. We take pride in our products and our
-            services, and we are dedicated to meeting the needs of our
-            customers. With our extensive selection of construction and general
-            merchandise, we are sure to have exactly what you need. Shop with us
-            today, and experience the quality and service that have made us the
-            top builder and supplier in our region.
+            At the core of our mission is a deep-seated belief in the pivotal
+            role of people as a fundamental investment in every institution. We
+            are resolute in our commitment to adding substantial value to these
+            esteemed institutions through targeted interventions in staff
+            development, idea generation, process definition, and strategic
+            planning. Our ultimate aim is to facilitate favorable results that
+            propel organizational growth.
+          </p>
+          <p>
+            Our overarching goal is to elevate the value of your organization,
+            empowering it to achieve and exceed set objectives. We take immense
+            pride in the exceptional quality of our deliveries—a direct
+            reflection of the competence and expertise we bring to every
+            engagement.
+          </p>
+          <p>
+            We recognize the unique needs of our clients, and, as such, we
+            meticulously tailor our offerings to meet these specific
+            requirements. Fueled by formidable teamwork, we channel all our
+            energy towards providing enduring solutions and high-quality
+            services. At our core, we are dedicated to ensuring that our clients
+            not only meet their goals but surpass them, setting new standards
+            for success in the dynamic business landscape.
           </p>
         </div>
       </div>

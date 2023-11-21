@@ -27,7 +27,7 @@ const Index = () => {
         </h2>
         <span></span>
         <p>
-          we elevate your success by surpassing goals and setting new standards
+          We elevate your success by surpassing goals and setting new standards
           in the dynamic business landscape.
         </p>
       </div>

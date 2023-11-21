@@ -52,17 +52,17 @@
         gap: 40px;
         padding: 20px;
         position: absolute;
-        top: 115px;
+        top: 100px;
         z-index: 250;
-        transition: right 0.4s ease-in-out;
+        transition: right 0.2s ease-in-out;
         background-color: #fff;
         border: 1px solid red;
         border-top: none;
         border-right: none;
-        -webkit-transition: right 0.4s ease-in-out;
-        -moz-transition: right 0.4s ease-in-out;
-        -ms-transition: right 0.4s ease-in-out;
-        -o-transition: right 0.4s ease-in-out;
+        // -webkit-transition: right 0.4s ease-in-out;
+        // -moz-transition: right 0.4s ease-in-out;
+        // -ms-transition: right 0.4s ease-in-out;
+        // -o-transition: right 0.4s ease-in-out;
       }
 
       @media screen and (max-width: 800px) {

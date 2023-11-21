@@ -16,6 +16,7 @@ const Index = () => {
           data-aos-duration="2000"
           className={styles.center}
         >
+          <div className={styles.opaq}></div>
           <h3>HUMAN CAPACITY DEVELOPMENT</h3>
           <span></span>
           <p>
@@ -29,6 +30,7 @@ const Index = () => {
           data-aos-duration="2000"
           className={styles.left}
         >
+          <div className={styles.opaq}></div>
           <h3>STRATEGY</h3>
           <span></span>
           <p>
@@ -42,6 +44,7 @@ const Index = () => {
           data-aos-duration="2000"
           className={styles.right}
         >
+          <div className={styles.opaq}></div>
           <h3>TRAINING</h3>
           <span></span>
           <p>
@@ -57,6 +60,7 @@ const Index = () => {
           data-aos-duration="2000"
           className={styles.left}
         >
+          <div className={styles.opaq}></div>
           <h3>TEAM ENHANCEMENT</h3>
           <span></span>
           <p>
@@ -70,6 +74,7 @@ const Index = () => {
           data-aos-duration="2000"
           className={styles.center}
         >
+          <div className={styles.opaq}></div>
           <h3>CUSTOMER EXCELLENCE</h3>
           <span></span>
           <p>

@@ -14,7 +14,7 @@ const Index = () => {
     AOS.refresh();
   }, []);
   return (
-    <div id="contact" className={styles.root}>
+    <div id="client" className={styles.root}>
       <h2
         data-aos="flip-down"
         data-aos-easing="ease-out-cubic"
@@ -23,52 +23,116 @@ const Index = () => {
         Our Clients
       </h2>
       <div className={styles.container}>
-        <div>
+        <div
+          data-aos="zoom-out-right"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="3000"
+        >
           <Image src="/assets/client1.png" alt="" width={100} height={80} />
         </div>
-        <div>
+        <div
+          data-aos="zoom-out-down"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="3000"
+        >
           <Image src="/assets/client2.png" alt="" width={100} height={80} />
         </div>
-        <div>
+        <div
+          data-aos="zoom-out-down"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="3000"
+        >
           <Image src="/assets/client3.png" alt="" width={100} height={80} />
         </div>
-        <div>
+        <div
+          data-aos="zoom-out-left"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="3000"
+        >
           <Image src="/assets/client4.png" alt="" width={100} height={80} />
         </div>
-        <div>
+        <div
+          data-aos="zoom-out-right"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="3000"
+        >
           <Image src="/assets/client5.png" alt="" width={100} height={80} />
         </div>
-        <div>
+        <div
+          data-aos="zoom-out-down"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="3000"
+        >
           <Image src="/assets/client6.png" alt="" width={100} height={80} />
         </div>
-        <div>
+        <div
+          data-aos="zoom-out-down"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="3000"
+        >
           <Image src="/assets/client7.png" alt="" width={100} height={80} />
         </div>
-        <div>
+        <div
+          data-aos="zoom-out-left"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="3000"
+        >
           <Image src="/assets/client8.png" alt="" width={100} height={80} />
         </div>
-        <div>
+        <div
+          data-aos="zoom-out-right"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="3000"
+        >
           <Image src="/assets/client9.png" alt="" width={100} height={80} />
         </div>
-        <div>
+        <div
+          data-aos="zoom-out-up"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="3000"
+        >
           <Image src="/assets/client10.png" alt="" width={100} height={80} />
         </div>
-        <div>
+        <div
+          data-aos="zoom-out-up"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="3000"
+        >
           <Image src="/assets/client11.png" alt="" width={100} height={80} />
         </div>
-        <div>
+        <div
+          data-aos="zoom-out-left"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="3000"
+        >
           <Image src="/assets/client12.png" alt="" width={100} height={80} />
         </div>
-        <div>
+        <div
+          data-aos="zoom-out-right"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="3000"
+        >
           <Image src="/assets/client13.png" alt="" width={100} height={80} />
         </div>
-        <div>
+        <div
+          data-aos="zoom-out-up"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="3000"
+        >
           <Image src="/assets/client14.png" alt="" width={100} height={80} />
         </div>
-        <div>
+        <div
+          data-aos="zoom-out-up"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="3000"
+        >
           <Image src="/assets/client15.png" alt="" width={100} height={80} />
         </div>
-        <div>
+        <div
+          data-aos="zoom-out-left"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="3000"
+        >
           <Image src="/assets/client16.png" alt="" width={100} height={80} />
         </div>
       </div>
