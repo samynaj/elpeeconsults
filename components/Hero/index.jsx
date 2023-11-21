@@ -53,7 +53,7 @@ const Index = () => {
         data-aos-easing="ease-out-cubic"
         data-aos-duration="3000"
       >
-        Empowering organizations through tailored transformation solution
+        Empowering organizations through tailored transformation solutions
       </p>
       <button
         data-aos="flip-right"

@@ -10,7 +10,7 @@ import {
 const Index = () => {
   return (
     <div className={styles.root}>
-      <div className={styles.left}>2023 © Copyrights Elpeeconsults</div>
+      <div className={styles.left}>2023 © Copyrights Elpee Consults</div>
       <div className={styles.center}>
         <span>Contact us</span>
         <span>Disclaimer</span>
