@@ -16,6 +16,7 @@ const Index = () => {
   const router = useRouter();
   return (
     <div className={styles.root}>
+      <div className={styles.opaq}></div>
       <div
         data-aos="zoom-in-down"
         data-aos-easing="ease-out-cubic"
