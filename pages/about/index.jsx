@@ -15,7 +15,7 @@ const Index = () => {
       <div className={styles.root}>
         <div className={styles.top}>
           <div className={styles.left}>
-            <Image src="/assets/about.jpg" alt="" width={700} height={700} />
+            <Image src="/assets/about.jpeg" alt="" width={700} height={700} />
           </div>
           <div className={styles.right}>
             <div

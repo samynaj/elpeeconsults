@@ -44,7 +44,6 @@ const Index = () => {
                 delay: 3000,
                 pauseOnMouseEnter: true,
                 disableOnInteraction: false,
-                reverseDirection: true,
               }}
               pagination={true}
               modules={[Navigation, Autoplay]}
