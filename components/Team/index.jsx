@@ -1,12 +1,12 @@
-import Image from "next/image";
-import React from "react";
+import React, { useState } from "react";
 import styles from "./index.module.scss";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, EffectCube, Autoplay } from "swiper";
+import { Navigation, Autoplay, Pagination } from "swiper";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/effect-cube";
 import "swiper/css/pagination";
+import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 
 const Index = () => {
   return (
@@ -18,10 +18,10 @@ const Index = () => {
             data-aos-easing="ease-out-cubic"
             data-aos-duration="3000"
           >
-            Our Core Team
+            Our Team
           </h2>
           <div></div>
-          <p>Get an overview of some of our core team members</p>
+          {/* <p>Get an overview of some of our core team members</p> */}
         </div>
         <div className={styles.content}>
           <div
@@ -32,21 +32,17 @@ const Index = () => {
           >
             <Swiper
               style={{ zIndex: 0 }}
-              //   effect={"cube"}
-              //   grabCursor={true}
-              //   cubeEffect={{
-              //     shadow: true,
-              //     slideShadows: true,
-              //     shadowOffset: 20,
-              //     // shadowScale: 0.94,
-              //   }}
-              autoplay={{
-                delay: 3000,
-                pauseOnMouseEnter: true,
-                disableOnInteraction: false,
-              }}
+              // autoplay={{
+              //   delay: 3000,
+              //   pauseOnMouseEnter: true,
+              //   disableOnInteraction: false,
+              // }}
               pagination={true}
-              modules={[Navigation, Autoplay]}
+              navigation={{
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+              }}
+              modules={[Navigation, Pagination]}
               className={styles.swiper_container}
             >
               <SwiperSlide className={styles.contentFlex}>
@@ -63,14 +59,15 @@ const Index = () => {
                     capacity development and flawless strategic implementation.
                   </p>
                   <p>
-                    His impactful collaborations with NGOs and accelerators
-                    across the African continent underscore his commitment to
-                    operational excellence. A two-time TEDx speaker, Dr.
-                    Phillips not only shares his insights but actively shapes
-                    the discourse on leadership and innovation. As the
-                    distinguished CEO/Principal Partner at Elpee Consults, he
-                    continues to spearhead transformative initiatives, leaving
-                    an indelible mark on the business landscape.
+                    His impactful collaborations with diverse organisations
+                    within and outside the African continent underscore his
+                    commitment to operational excellence. A two-time TED
+                    speaker, Dr. Phillips not only shares his insights but
+                    actively shapes the discourse on leadership and innovation
+                    amongst other topics. As the CEO/Principal Partner at Elpee
+                    Consults, He continues to spearhead transformative
+                    initiatives, leaving an indelible mark on the business
+                    landscape.
                   </p>
                 </div>
               </SwiperSlide>
@@ -145,6 +142,28 @@ const Index = () => {
                   </p>
                 </div>
               </SwiperSlide>
+              <div
+                className={`swiper-button-prev ${styles.swiper_button_prev}`}
+                style={{
+                  backgroundColor: "#f1f1f1",
+                  padding: "27px",
+                  borderRadius: "50%",
+                  color: "#014f86",
+                  marginLeft: -10,
+                  opacity: 0.8,
+                }}
+              ></div>
+              <div
+                className={`swiper-button-next ${styles.swiper_button_next}`}
+                style={{
+                  backgroundColor: "#f1f1f1",
+                  padding: "27px",
+                  borderRadius: "50%",
+                  color: "#014f86",
+                  marginRight: -10,
+                  opacity: 0.8,
+                }}
+              ></div>
             </Swiper>
           </div>
         </div>

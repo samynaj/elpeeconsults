@@ -1,7 +1,6 @@
 import React from "react";
 import styles from "./index.module.scss";
 import Layout from "../../components/layout";
-import Image from "next/image";
 import Accordion from "@mui/material/Accordion";
 import AccordionSummary from "@mui/material/AccordionSummary";
 import AccordionDetails from "@mui/material/AccordionDetails";
@@ -14,12 +13,12 @@ const Index = () => {
     <Layout>
       <div className={styles.root}>
         <div className={styles.top}>
-          <div className={styles.left}>
+          {/* <div className={styles.left}>
             <div className={styles.opaq}>
               <h4>About Us</h4>
             </div>
             <img src="/assets/about.jpeg" alt="" />
-          </div>
+          </div> */}
           <div className={styles.right}>
             <div
               data-aos="flip-left"
@@ -36,8 +35,8 @@ const Index = () => {
               </h2>
               <div></div>
               <p>
-                We elevate your success by surpassing goals and setting new
-                standards in the dynamic business landscape.
+                We elevate your organization’s success by surpassing goals and
+                setting new standards in the dynamic business landscape.
               </p>
             </div>
             <div>

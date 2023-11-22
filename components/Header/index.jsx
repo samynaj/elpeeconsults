@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import styles from "./index.module.scss";
-import Image from "next/image";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Link from "next/link";
@@ -24,7 +23,7 @@ const Index = () => {
             data-aos-duration="3000"
             className={styles.logo}
           >
-            <Image src="/assets/unnamed.png" alt="" width={180} height={80} />
+            <img src="/assets/unnamed.png" alt="" width={180} height={80} />
             {/* <p>Elpeeconsults</p> */}
           </div>
         </Link>

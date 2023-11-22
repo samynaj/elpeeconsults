@@ -1,6 +1,5 @@
 import { useEffect } from "react";
-import Image from "next/image";
-import React, { useRef } from "react";
+import React from "react";
 import styles from "./index.module.scss";
 import Typewriter from "typewriter-effect";
 import AOS from "aos";
@@ -23,12 +22,7 @@ const Index = () => {
         data-aos-duration="3000"
         className={styles.type}
       >
-        <Image
-          src="/assets/sep-line-white.png"
-          alt=""
-          width="600px"
-          height={8}
-        />
+        <img src="/assets/sep-line-white.png" alt="" width="600px" height={8} />
         <Typewriter
           options={{
             strings: [
@@ -42,12 +36,7 @@ const Index = () => {
             loop: true,
           }}
         />
-        <Image
-          src="/assets/sep-line-white.png"
-          alt=""
-          width="600px"
-          height={8}
-        />
+        <img src="/assets/sep-line-white.png" alt="" width="600px" height={8} />
       </div>
       <p
         data-aos="fade-up"

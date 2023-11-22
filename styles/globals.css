@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
 @import "../node_modules/hamburgers/dist/hamburgers";
 html,
 body {
@@ -17,5 +17,15 @@ a {
 
 * {
   box-sizing: border-box;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
+}
+.swiper-button-next,
+.swiper-button-prev {
+  top: 50% !important;
+}
+@media screen and (max-width: 800px) {
+  .swiper-button-next,
+  .swiper-button-prev {
+    top: 35% !important;
+  }
 }

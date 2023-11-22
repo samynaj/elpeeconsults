@@ -7,7 +7,7 @@ const Index = () => {
       <div className={styles.top}>
         <h2>Our Services</h2>
         <div></div>
-        <p>Get an overview of what we do</p>
+        {/* <p>Get an overview of what we do</p> */}
       </div>
       <div className={styles.core}>
         <div

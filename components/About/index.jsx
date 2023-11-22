@@ -26,10 +26,10 @@ const Index = () => {
           About Us
         </h2>
         <span></span>
-        <p>
-          We elevate your success by surpassing goals and setting new standards
-          in the dynamic business landscape.
-        </p>
+        {/* <p>
+          We elevate your organization’s success by surpassing goals and setting
+          new standards in the dynamic business landscape.
+        </p> */}
       </div>
       <div className={styles.right}>
         <p
