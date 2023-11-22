@@ -6,6 +6,7 @@ import {
   FaTwitter,
   FaInstagram,
 } from "react-icons/fa";
+import Link from "next/link";
 
 const Index = () => {
   return (
@@ -17,10 +18,21 @@ const Index = () => {
         <span>Terms & conditions</span>
       </div>
       <div className={styles.right}>
-        <FaFacebookF />
-        <FaLinkedinIn />
-        <FaTwitter />
-        <FaInstagram />
+        <Link
+          href="https://www.linkedin.com/company/elpee-consults-ltd/"
+          target="_blank"
+        >
+          <FaLinkedinIn className={styles.icon} />
+        </Link>
+        <Link href="https://twitter.com/" target="_blank">
+          <FaTwitter className={styles.icon} />
+        </Link>
+        <Link
+          href="https://instagram.com/elpee_consults?igshid=OGQ5ZDc2ODk2ZA=="
+          target="_blank"
+        >
+          <FaInstagram className={styles.icon} />
+        </Link>
       </div>
     </div>
   );

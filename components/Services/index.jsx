@@ -11,17 +11,34 @@ const Index = () => {
       </div>
       <div className={styles.core}>
         <div
+          data-aos="zoom-in-down"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="2000"
+          className={styles.right}
+        >
+          <div className={styles.opaq}></div>
+          <h3>TRAININGS</h3>
+          <span></span>
+          <p>
+            Equip your workforce with the knowledge and skills necessary to
+            excel in today&apos;s competitive business landscape.
+          </p>
+        </div>
+        <div
           data-aos="zoom-in-up"
           data-aos-easing="ease-out-cubic"
           data-aos-duration="2000"
           className={styles.center}
         >
           <div className={styles.opaq}></div>
-          <h3>HUMAN CAPACITY DEVELOPMENT</h3>
+          <h3>BRAND ENHANCEMENT</h3>
           <span></span>
           <p>
-            Invest in the growth and development of your employees, unlocking
-            their full potential and fostering a high-performance culture.
+            Our comprehensive approach transforms your brand narrative into an
+            engaging story, utilizing the power of digital marketing to amplify
+            your impact. We work through our strategic fusion of storytelling
+            and dynamic campaigns, setting new standards in the realm of brand
+            enhancement.
           </p>
         </div>
         <div
@@ -36,20 +53,6 @@ const Index = () => {
           <p>
             Develop effective strategies to optimize business performance, drive
             growth, and stay ahead of the competition.
-          </p>
-        </div>
-        <div
-          data-aos="zoom-in-down"
-          data-aos-easing="ease-out-cubic"
-          data-aos-duration="2000"
-          className={styles.right}
-        >
-          <div className={styles.opaq}></div>
-          <h3>TRAINING</h3>
-          <span></span>
-          <p>
-            Equip your workforce with the knowledge and skills necessary to
-            excel in today&apos;s competitive business landscape.
           </p>
         </div>
       </div>

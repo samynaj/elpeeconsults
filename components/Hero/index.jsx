@@ -26,9 +26,9 @@ const Index = () => {
         <Typewriter
           options={{
             strings: [
-              "Training",
+              "Trainings",
+              "Brand Enhancement",
               "Strategy",
-              "Human Capacity Development",
               "Team Enhancement",
               "Customer Excellence",
             ],

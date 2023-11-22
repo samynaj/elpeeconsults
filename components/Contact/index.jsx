@@ -5,7 +5,7 @@ import "aos/dist/aos.css";
 import { SlLocationPin, SlEarphones, SlClock } from "react-icons/sl";
 import { MdFacebook } from "react-icons/md";
 import { AiFillTwitterCircle, AiFillInstagram } from "react-icons/ai";
-import { IoLogoWhatsapp } from "react-icons/io";
+import { IoLogoLinkedin, IoLogoWhatsapp } from "react-icons/io";
 import Link from "next/link";
 
 const Index = () => {
@@ -80,16 +80,16 @@ const Index = () => {
         <div className={styles.top}>
           <h3>GET CONNECTED</h3>
           <hr />
-          <p>
+          {/* <p>
             You can also send us a message on any of our social media handles
             below.
-          </p>
+          </p> */}
         </div>
         <div className={styles.socials}>
-          <Link href="https://facebook.com/" target="_blank">
+          {/* <Link href="https://facebook.com/" target="_blank">
             <MdFacebook className={styles.icon} size={30} />
-          </Link>
-          <Link href="https://facebook.com/" target="_blank">
+          </Link> */}
+          <Link href="https://twitter.com/" target="_blank">
             <AiFillTwitterCircle className={styles.icon} size={30} />
           </Link>
           <Link
@@ -98,8 +98,11 @@ const Index = () => {
           >
             <AiFillInstagram className={styles.icon} size={30} />
           </Link>
-          <Link href="https://facebook.com/" target="_blank">
-            <IoLogoWhatsapp className={styles.icon} size={30} />
+          <Link
+            href="https://www.linkedin.com/company/elpee-consults-ltd/"
+            target="_blank"
+          >
+            <IoLogoLinkedin className={styles.icon} size={30} />
           </Link>
         </div>
       </div>

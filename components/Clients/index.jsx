@@ -15,7 +15,7 @@ const Index = () => {
         data-aos-easing="ease-out-cubic"
         data-aos-duration="3000"
       >
-        Our Clients
+        Collaborations
       </h2>
       <div className={styles.red}>
         <div></div>
