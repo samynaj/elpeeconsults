@@ -72,49 +72,6 @@ const Index = () => {
                 </div>
               </SwiperSlide>
               <SwiperSlide className={styles.contentFlex}>
-                <img src="/assets/team2.png" alt="" />
-                <div className={styles.text}>
-                  <h5>JT Oshoke Abu</h5>
-                  <p>
-                    JT Oshoke is a Certified Human Resource Professional, a
-                    Career Coach, a Corporate Trainer, and a Public Speaker. He
-                    holds M.Ed in Administration and Planning as well as a B.Sc
-                    in Education. He is an Associate Member of the Chartered
-                    Institute of Personnel Management Nigeria, CIPM.
-                  </p>
-                  <p>
-                    With over 15 years of progressive work experience, he has a
-                    background in banking (Relationship Management & Customer
-                    Service) from Bank PHB and ASO Savings and Loans Plc, Human
-                    Resource Management in the International Development sector
-                    as well as experience in Management and HR Consulting where
-                    he has worked with numerous clienteles across sectors.
-                  </p>
-                </div>
-              </SwiperSlide>
-              <SwiperSlide className={styles.contentFlex}>
-                <img src="/assets/team3.png" alt="" />
-                <div className={styles.text}>
-                  <h5>Tare Okene SHRM-CP</h5>
-                  <p>
-                    Tare is a passionate and result-driven Human Resource
-                    professional with a proven track record in aligning HR
-                    strategy and operations with organizational goals. She has
-                    collaborated extensively with line managers and employees to
-                    drive HR priorities and operations.
-                  </p>
-                  <p>
-                    She leverages her background in Sociology and Anthropology,
-                    to bring a unique perspective to Human Resource practice,
-                    enabling her to understand human behaviour and
-                    organizational dynamics. Editha-Rose&apos;s years of
-                    experience in Human Resources spans across; Consulting,
-                    Renewable Energy, and Agricultural Supply Chain sectors
-                    where she delivered exceptional value.
-                  </p>
-                </div>
-              </SwiperSlide>
-              <SwiperSlide className={styles.contentFlex}>
                 <img src="/assets/team4.png" alt="" />
                 <div className={styles.text}>
                   <h5>David Olatunji</h5>
@@ -142,6 +99,51 @@ const Index = () => {
                   </p>
                 </div>
               </SwiperSlide>
+
+              <SwiperSlide className={styles.contentFlex}>
+                <img src="/assets/team3.png" alt="" />
+                <div className={styles.text}>
+                  <h5>Tare Okene SHRM-CP</h5>
+                  <p>
+                    Tare is a passionate and result-driven Human Resource
+                    professional with a proven track record in aligning HR
+                    strategy and operations with organizational goals. She has
+                    collaborated extensively with line managers and employees to
+                    drive HR priorities and operations.
+                  </p>
+                  <p>
+                    She leverages her background in Sociology and Anthropology,
+                    to bring a unique perspective to Human Resource practice,
+                    enabling her to understand human behaviour and
+                    organizational dynamics. Tare&apos;s years of experience in
+                    Human Resources spans across; Consulting, Renewable Energy,
+                    and Agricultural Supply Chain sectors where she delivered
+                    exceptional value.
+                  </p>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide className={styles.contentFlex}>
+                <img src="/assets/team2.png" alt="" />
+                <div className={styles.text}>
+                  <h5>JT Oshoke Abu</h5>
+                  <p>
+                    JT Oshoke is a Certified Human Resource Professional, a
+                    Career Coach, a Corporate Trainer, and a Public Speaker. He
+                    holds M.Ed in Administration and Planning as well as a B.Sc
+                    in Education. He is an Associate Member of the Chartered
+                    Institute of Personnel Management Nigeria, CIPM.
+                  </p>
+                  <p>
+                    With over 15 years of progressive work experience, he has a
+                    background in banking (Relationship Management & Customer
+                    Service) from Bank PHB and ASO Savings and Loans Plc, Human
+                    Resource Management in the International Development sector
+                    as well as experience in Management and HR Consulting where
+                    he has worked with numerous clienteles across sectors.
+                  </p>
+                </div>
+              </SwiperSlide>
+
               <div
                 className={`swiper-button-prev ${styles.swiper_button_prev}`}
                 style={{
